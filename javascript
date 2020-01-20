@@ -19,11 +19,10 @@ var vacademicachievement = ["Top 5 % in the country", "Average in the country","
 var vparentalsatisfaction = ["69% of parents are satisfied with their own children's education", "82% of parents are satisfied with their own children's education", "95% of parents are satisfied with their own children's education"];
 var vsocialwellbeing = ["Students never harass, bully, or intimidate other students", "Students rarely harass, bully, or intimidate other students", "Students sometimes harass, bully, or intimidate other students"];
 var vdistributionacademic = ["Almost equal academic achievement regardless of students' socio-economic status", "Somewhat worse academic achievement for students with low socio-economic status", "Significantly worse academic achievement for students with low socio-economic status"];
-var vequity = ["Teachers almost always treat students from different cultures or backgrounds equally", "Teachers most of the time treat students from different cultures or backgrounds equally", "Teachers sometimes treat students from different cultures or backgrounds differently"];
-var vfairness = ["Students think that employees in the public school treat citizens fairly almost always", "Students think that employees in the public school generally treat citizens fairly", "Students think that employees in the public school treat citizens somewhat unfair"];
-var vwarmth = ["Almost all students think employees in the public school are warm people", "Most students think employees in the public school are warm people", "About half of students think employees in the public school are warm people"];
-var vbenevolence = ["Almost all students think employees in the public school generally care about citizens", "Most students think employees in the public school generally care about citizens", "About half of students think employees in the public school generally care about citizens"];
-
+var vequity = ["Almost always", "Most of the time", "Only sometimes"];
+var vfairness = ["Almost always", "Generally", "Only sometimes"];
+var vwarmth = ["Almost all students", "Most students", "About half of students"];
+var vbenevolence = ["Almost all students", "Most student", "About half of students"];
 
 // Use math.random to randomly select traits for each dimension for Public school A
 traits_a = [vacademicachievement[Math.floor(Math.random()*vacademicachievement.length)],
