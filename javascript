@@ -20,28 +20,38 @@ var vparentalsatisfaction = ["69%", "82%", "95%"];
 var vsocialwellbeing = ["Never", "Rarely", "Sometimes"];
 var vdistributionacademic = ["Almost equal", "Somewhat worse", "Significantly worse"];
 var vequity = ["Almost always", "Most of the time", "Sometimes"];
+var vfairness = ["Almost always", "Generally", "Somewhat"];
+var vwarmth = ["Almost all", "Most", "About half of"];
+var vbenevolence = ["Almost all", "Most", "About half of"];
 
-// Use math.random to randomly select traits for each dimension for candidate A
-traits_a = [ vacademicachievement[Math.floor(Math.random()* vacademicachievement.length)],
+
+// Use math.random to randomly select traits for each dimension for Public school A
+traits_a = [vacademicachievement[Math.floor(Math.random()*vacademicachievement.length)],
             vparentalsatisfaction[Math.floor(Math.random()*vparentalsatisfaction.length)], 
             vsocialwellbeing[Math.floor(Math.random()*vsocialwellbeing.length)],
-            vdistributionacademic[Math.floor(Math.random()*vdisstributionacademic.length)],
-            vequity[Math.floor(Math.random()*vequity.length)] ];
+            vdistributionacademic[Math.floor(Math.random()*vdistributionacademic.length)],
+            vequity[Math.floor(Math.random()*vequity.length)] 
+            vfairness[Math.floor(Math.random()*vfairness.length)] 
+            vwarmth[Math.floor(Math.random()*vwarmth.length)]
+            vbenevolence[Math.floor(Math.random()*vbenevolence.length)] ];
    
 
-// Use math.random to randomly select traits for each dimension for candidate B
-traits_b = [ vacademicachievement[Math.floor(Math.random()* vacademicachievement.length)],
+// Use math.random to randomly select traits for each dimension for Public school B
+traits_b = [vacademicachievement[Math.floor(Math.random()*vacademicachievement.length)],
             vparentalsatisfaction[Math.floor(Math.random()*vparentalsatisfaction.length)], 
             vsocialwellbeing[Math.floor(Math.random()*vsocialwellbeing.length)],
-            vdistributionacademic[Math.floor(Math.random()*vdisstributionacademic.length)],
-            vequity[Math.floor(Math.random()*vequity.length)] ];
+            vdistributionacademic[Math.floor(Math.random()*vdistributionacademic.length)],
+            vequity[Math.floor(Math.random()*vequity.length)] 
+            vfairness[Math.floor(Math.random()*vfairness.length)] 
+            vwarmth[Math.floor(Math.random()*vwarmth.length)]
+            vbenevolence[Math.floor(Math.random()*vbenevolence.length)] ];
 
 // Create list of variables to use when setting attributes
-a_list = ["a1","a2", "a3", "a4", "a5"]; 
-b_list = ["b1","b2","b3","b4","b5"]; 
+a_list = ["a1","a2","a3","a4","a5","a6","a7","a8","a9"]; 
+b_list = ["b1","b2","b3","b4","b5","b6","b7","b8","b9"]; 
 
 // set html values in conjoint table
-for(i=0;i<5;i++){
+for(i=0;i<9;i++){
     document.getElementById(a_list[i]).innerHTML = traits_a[i];
     document.getElementById(b_list[i]).innerHTML = traits_b[i];
 }
