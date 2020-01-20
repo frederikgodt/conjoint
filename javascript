@@ -30,9 +30,9 @@ traits_a = [vacademicachievement[Math.floor(Math.random()*vacademicachievement.l
             vparentalsatisfaction[Math.floor(Math.random()*vparentalsatisfaction.length)], 
             vsocialwellbeing[Math.floor(Math.random()*vsocialwellbeing.length)],
             vdistributionacademic[Math.floor(Math.random()*vdistributionacademic.length)],
-            vequity[Math.floor(Math.random()*vequity.length)] 
-            vfairness[Math.floor(Math.random()*vfairness.length)] 
-            vwarmth[Math.floor(Math.random()*vwarmth.length)]
+            vequity[Math.floor(Math.random()*vequity.length)], 
+            vfairness[Math.floor(Math.random()*vfairness.length)], 
+            vwarmth[Math.floor(Math.random()*vwarmth.length)],
             vbenevolence[Math.floor(Math.random()*vbenevolence.length)] ];
    
 
@@ -41,9 +41,9 @@ traits_b = [vacademicachievement[Math.floor(Math.random()*vacademicachievement.l
             vparentalsatisfaction[Math.floor(Math.random()*vparentalsatisfaction.length)], 
             vsocialwellbeing[Math.floor(Math.random()*vsocialwellbeing.length)],
             vdistributionacademic[Math.floor(Math.random()*vdistributionacademic.length)],
-            vequity[Math.floor(Math.random()*vequity.length)] 
-            vfairness[Math.floor(Math.random()*vfairness.length)] 
-            vwarmth[Math.floor(Math.random()*vwarmth.length)]
+            vequity[Math.floor(Math.random()*vequity.length)], 
+            vfairness[Math.floor(Math.random()*vfairness.length)], 
+            vwarmth[Math.floor(Math.random()*vwarmth.length)],
             vbenevolence[Math.floor(Math.random()*vbenevolence.length)] ];
 
 // Create list of variables to use when setting attributes
