@@ -47,8 +47,8 @@ traits_b = [vacademicachievement[Math.floor(Math.random()*vacademicachievement.l
             vbenevolence[Math.floor(Math.random()*vbenevolence.length)] ];
 
 // Create list of variables to use when setting attributes
-a_list = ["a1","a2","a3","a4","a5","a6","a7","a8","a9"]; 
-b_list = ["b1","b2","b3","b4","b5","b6","b7","b8","b9"]; 
+a_list = ["a1","a2","a3","a4","a5","a6","a7","a8"]; 
+b_list = ["b1","b2","b3","b4","b5","b6","b7","b8"]; 
 
 // set html values in conjoint table
 for(i=0;i<9;i++){
